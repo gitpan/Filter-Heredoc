@@ -1,6 +1,7 @@
 bin/filter-heredoc
 Build.PL
 Changes
+Changes.hd
 examples/example1
 examples/example2
 lib/Filter/Heredoc.pm
@@ -10,7 +11,8 @@ lib/Filter/Heredoc/Rule.pm
 LICENSE
 MANIFEST			This list of files
 META.yml
-README
+META.json
+README.md
 t/000_load.t
 t/001_manifest.t
 t/002_pod.t
@@ -39,3 +41,4 @@ t/01_heredoc/dbnx13.t
 t/02_rule/001_syntax.t
 t/02_rule/002_line_ok.t
 t/02_rule/dbnx16-1.t
+META.json

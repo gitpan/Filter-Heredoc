@@ -1,29 +1,30 @@
 ---
-name: Filter-Heredoc
-version: 0.01
+abstract: 'Search and filter embedded here documents'
 author:
   - 'Bertil Kronlund <bkron at cpan.org>'
-abstract: Search and filter embedded here documents
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
 build_requires:
   Test::More: 0
-requires:
-  perl: 5.01
 configure_requires:
-  Module::Build: 0.340201
-provides:
-  Filter::Heredoc:
-    file: lib/Filter/Heredoc.pm
-    version: 0.01
-  Filter::Heredoc::App:
-    file: lib/Filter/Heredoc/App.pm
-    version: 0.01
-  Filter::Heredoc::Rule:
-    file: lib/Filter/Heredoc/Rule.pm
-    version: 0.01
-generated_by: Module::Build version 0.340201
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.110440'
+license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
+name: Filter-Heredoc
+provides:
+  Filter::Heredoc:
+    file: lib/Filter/Heredoc.pm
+    version: 0.02
+  Filter::Heredoc::App:
+    file: lib/Filter/Heredoc/App.pm
+    version: 0.02
+  Filter::Heredoc::Rule:
+    file: lib/Filter/Heredoc/Rule.pm
+    version: 0.02
+requires:
+  perl: 5.01
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.02
